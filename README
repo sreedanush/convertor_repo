@@ -1,0 +1,11 @@
+# Web Interface Converter for ESP
+
+This repo contains:
+
+1. `convertor.py` – Python script to convert `.html`, `.css`, `.js`, `.json`, `.lang` files into gzipped `.h` files for flashing on ESP8266/ESP32.
+2. `converted_h/` – Ready-to-use `.h` files generated from the `web_interface` folder.
+
+## Usage
+Run the script:
+```bash
+python3 convertor.py
